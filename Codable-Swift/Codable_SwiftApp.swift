@@ -11,7 +11,7 @@ import SwiftUI
 struct Codable_SwiftApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LibraryView()
         }
     }
 }
