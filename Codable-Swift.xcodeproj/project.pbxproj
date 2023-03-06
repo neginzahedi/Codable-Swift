@@ -8,25 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		0F780B9F29AF01FF00DEB386 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F780B9E29AF01FF00DEB386 /* ImagePicker.swift */; };
+		0FC8F35A29B59A9300F28BAB /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC8F35929B59A9300F28BAB /* Book.swift */; };
 		0FE4612C29AEBEA500E76290 /* Codable_SwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE4612B29AEBEA500E76290 /* Codable_SwiftApp.swift */; };
 		0FE4612E29AEBEA500E76290 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE4612D29AEBEA500E76290 /* LibraryView.swift */; };
 		0FE4613029AEBEA600E76290 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FE4612F29AEBEA600E76290 /* Assets.xcassets */; };
 		0FE4613329AEBEA600E76290 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FE4613229AEBEA600E76290 /* Preview Assets.xcassets */; };
 		0FE4613A29AEBF3000E76290 /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE4613929AEBF3000E76290 /* BookView.swift */; };
-		0FE4613C29AEBF8400E76290 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE4613B29AEBF8400E76290 /* Book.swift */; };
 		0FE4614029AEC13F00E76290 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE4613F29AEC13F00E76290 /* AddBookView.swift */; };
 		0FE4614229AEC53400E76290 /* LibraryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE4614129AEC53400E76290 /* LibraryManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0F780B9E29AF01FF00DEB386 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		0FC8F35929B59A9300F28BAB /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		0FE4612829AEBEA500E76290 /* Codable-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Codable-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FE4612B29AEBEA500E76290 /* Codable_SwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codable_SwiftApp.swift; sourceTree = "<group>"; };
 		0FE4612D29AEBEA500E76290 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
 		0FE4612F29AEBEA600E76290 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FE4613229AEBEA600E76290 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0FE4613929AEBF3000E76290 /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
-		0FE4613B29AEBF8400E76290 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		0FE4613F29AEC13F00E76290 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
 		0FE4614129AEC53400E76290 /* LibraryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -45,7 +45,7 @@
 		0F47073C29B5936D0051D624 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				0FE4613B29AEBF8400E76290 /* Book.swift */,
+				0FC8F35929B59A9300F28BAB /* Book.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -176,9 +176,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FE4613C29AEBF8400E76290 /* Book.swift in Sources */,
 				0FE4613A29AEBF3000E76290 /* BookView.swift in Sources */,
 				0FE4612E29AEBEA500E76290 /* LibraryView.swift in Sources */,
+				0FC8F35A29B59A9300F28BAB /* Book.swift in Sources */,
 				0F780B9F29AF01FF00DEB386 /* ImagePicker.swift in Sources */,
 				0FE4612C29AEBEA500E76290 /* Codable_SwiftApp.swift in Sources */,
 				0FE4614029AEC13F00E76290 /* AddBookView.swift in Sources */,
