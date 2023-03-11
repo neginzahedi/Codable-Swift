@@ -4,7 +4,7 @@ This is a simple iOS application that demonstrates the use of Swift's Codable pr
 The app allows users to manage a digital book library, adding new books and viewing existing ones.
 
 <h3 align="center">
-<img src="Photos/preview.jpg" height=400>
+<img src="Photos/preview.png" height=400>
 </h3>
 
 
